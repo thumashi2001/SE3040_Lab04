@@ -1,0 +1,21 @@
+{
+  "name": "se3040_lab04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thumashi2001/SE3040_Lab04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thumashi2001/SE3040_Lab04/issues"
+  },
+  "homepage": "https://github.com/thumashi2001/SE3040_Lab04#readme"
+}
