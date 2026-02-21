@@ -1,9 +1,7 @@
-const fs = require("fs");
+const http = require('http');
 
-fs.writeFile("output.txt", "This file was created using Node.js!", (err) => {
-    if (err) {
-        console.log("Error writing file:", err);
-        return;
-    }
-    console.log("File written successfully!");
-});
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write('Hello World!');
+  res.end();
+}).listen(8080);
